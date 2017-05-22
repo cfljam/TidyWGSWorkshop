@@ -1,194 +1,76 @@
-name: TidyWGSDemoPy3.5
+name: TidyWGSPy3.5
 channels: !!python/tuple
-- r
 - bioconda
+- conda-forge
 - defaults
 dependencies:
-- appnope
-- bioconda::bwa
-- bioconda::curl
-- bioconda::gettext
-- bioconda::jpeg
-- bioconda::libffi
-- bioconda::perl-threaded
-- bioconda::perl-vcftools-vcf
-- bioconda::vcflib
-- bioconda::vcftools
-- cairo
+- bwa
+- perl-vcftools-vcf
+- vcflib
+- vcftools
 - damianavila82::rise
-- decorator
-- entrypoints
-- fontconfig
-- freetype
-- glib
-- gsl
-- harfbuzz
-- icu
+- python=3.5
+- babel
+- biopython
+- bokeh
+- csvkit
+- cython
+- cytoolz
+- dask
+- datashader
+- hdf5
+- ioam::holoviews
 - ipykernel
 - ipython
-- ipython_genutils
-- jbig
-- jinja2
-- jsonschema
+- ipywidgets
 - jupyter_client
+- jupyter_console
 - jupyter_core
-- libgcc
-- libiconv
-- libpng
-- libtiff
-- libxml2
-- markupsafe
-- mistune
+- matplotlib
+- mpi4py
 - nbconvert
-- nbformat
-- ncurses
+- networkx
+- nltk
 - notebook
-- openssl
-- pango
-- path.py
-- pcre
-- pexpect
-- pickleshare
-- pip
-- pixman
-- prompt_toolkit
-- ptyprocess
-- pygments
-- python
-- pyzmq
-- r::r-assertthat
-- r::r-backports
-- r::r-base
-- r::r-base64enc
-- r::r-bh
-- r::r-bitops
-- r::r-boot
-- r::r-broom
-- r::r-car
-- r::r-caret
-- r::r-catools
-- r::r-class
-- r::r-cluster
-- r::r-codetools
-- r::r-colorspace
-- r::r-crayon
-- r::r-curl
-- r::r-data.table
-- r::r-dbi
-- r::r-dichromat
-- r::r-digest
-- r::r-dplyr
-- r::r-essentials
-- r::r-evaluate
-- r::r-forcats
-- r::r-foreach
-- r::r-foreign
-- r::r-formatr
-- r::r-ggplot2
-- r::r-gistr
-- r::r-glmnet
-- r::r-gtable
-- r::r-haven
-- r::r-hexbin
-- r::r-highr
-- r::r-hms
-- r::r-htmltools
-- r::r-htmlwidgets
-- r::r-httpuv
-- r::r-httr
-- r::r-irdisplay
-- r::r-irkernel
-- r::r-iterators
-- r::r-jsonlite
-- r::r-kernsmooth
-- r::r-knitr
-- r::r-labeling
-- r::r-lattice
-- r::r-lazyeval
-- r::r-lme4
-- r::r-lubridate
-- r::r-magrittr
-- r::r-maps
-- r::r-markdown
-- r::r-mass
-- r::r-matrix
-- r::r-matrixmodels
-- r::r-mgcv
-- r::r-mime
-- r::r-minqa
-- r::r-mnormt
-- r::r-modelmetrics
-- r::r-modelr
-- r::r-munsell
-- r::r-nlme
-- r::r-nloptr
-- r::r-nnet
-- r::r-openssl
-- r::r-pbdzmq
-- r::r-pbkrtest
-- r::r-plyr
-- r::r-pryr
-- r::r-psych
-- r::r-purrr
-- r::r-quantmod
-- r::r-quantreg
-- r::r-r6
-- r::r-randomforest
-- r::r-rbokeh
-- r::r-rcolorbrewer
-- r::r-rcpp
-- r::r-rcppeigen
-- r::r-readr
-- r::r-readxl
-- r::r-recommended
-- r::r-repr
-- r::r-reshape2
-- r::r-rmarkdown
-- r::r-rpart
-- r::r-rprojroot
-- r::r-rvest
-- r::r-scales
-- r::r-selectr
-- r::r-shiny
-- r::r-sourcetools
-- r::r-sparsem
-- r::r-spatial
-- r::r-stringi
-- r::r-stringr
-- r::r-survival
-- r::r-tibble
-- r::r-tidyr
-- r::r-tidyverse
-- r::r-ttr
-- r::r-uuid
-- r::r-xml2
-- r::r-xtable
-- r::r-xts
-- r::r-yaml
-- r::r-zoo
-- readline
-- setuptools
-- simplegeneric
-- six
-- sqlite
-- terminado
-- tk
-- tornado
-- traitlets
-- wcwidth
-- wheel
-- xz
-- zeromq
-- zlib
+- numba
+- numexpr
+- numpy
+- opencv
+- pandas
+- pytables
+- pytest
+- r-essentials
+- scikit-image
+- scikit-learn
+- scipy
+- seaborn
+- snakeviz
+- sphinx
+- sqlalchemy
+- statsmodels
+- sympy
+- theano
+- toolz
+- xarray
 - pip:
   - gister
-  - ipython-genutils
-  - jupyter-client
-  - jupyter-core
   - notedown
-  - pandoc-attributes
-  - pandocfilters
-  - prompt-toolkit
-  - requests
-prefix: /Users/johnmccallum/miniconda3/envs/TidyWGSDemoPy3.5
-
+  - altair
+  - dendropy
+  - ggplot
+  - hdbscan
+  - joblib
+  - MDAnalysis
+  - modulecmd
+  - mypy
+  - nbdime
+  - palettable
+  - pybedtools
+  - pyfaidx
+  - pysam
+  - pyvcf
+  - rpy2
+  - scikit-allel
+  - scikit-bio
+  - vcfnp
+  - vega
